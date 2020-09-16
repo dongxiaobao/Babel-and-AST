@@ -75,7 +75,7 @@ if (1 > 0) {
 
 用图像更简单地表达上面的结构：
 
-<img src="./640.png" alt="640" style="zoom:50%;" />
+<img src="https://github.com/dongxiaobao/Babel-and-AST/blob/master/640.png" alt="640" style="zoom:50%;" />
 
 第1步转换的过程中可以验证语法的正确性，同时由字符串变为对象结构后更有利于精准地分析以及进行代码结构调整。
 
@@ -278,7 +278,7 @@ console.log(r.code) // const fn = function (a, b) { return a + b; };
 
 我们常用的浏览器就是通过将 js 代码转化为抽象语法树来进行下一步的分析等其他操作。所以将 js 转化为抽象语法树更利于程序的分析。
 
-<img src="./641.png" alt="641" style="zoom:50%;" />
+<img src="https://github.com/dongxiaobao/Babel-and-AST/blob/master/641.png" alt="641" style="zoom:50%;" />
 
 如上图中变量声明语句，转换为 AST 之后就是右图中显示的样式
 
@@ -398,8 +398,7 @@ leave -> node.type.Program
 ```
 
 由此可以得到 AST 遍历的流程是深度优先，遍历过程如下：
-
-<img src="./ast遍历的流程.png" alt="ast遍历的流程" style="zoom:50%;" />
+<img src="https://github.com/dongxiaobao/Babel-and-AST/blob/master/ast遍历的流程.png" alt="ast遍历的流程" style="zoom:50%;" />
 
 ##### 修改函数名字
 
